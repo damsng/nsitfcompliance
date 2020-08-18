@@ -39,6 +39,18 @@ body {
   padding: 0.5rem;
   border-style: solid;
 }
+.brand {
+  margin-left: -4rem;
+}
+.nav {
+  list-style-type: none;
+  display: inline;
+  padding-right: 3rem;
+}
+.nav > a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .header2 > .header-links > a {
   text-decoration: none;
   color: #ffffff;
@@ -54,7 +66,20 @@ body {
   grid-area: footer;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: -4rem;
   background-color: #062a0f;
+}
+.links {
+  list-style-type: none;
+  display: inline;
+  padding-right: 3rem;
+}
+.links > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.copyright {
+  align-items: center;
+  margin: auto;
+  justify-content: center;
 }
